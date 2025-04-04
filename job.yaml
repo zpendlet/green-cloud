@@ -12,9 +12,9 @@ spec:
           image: 269053363191.dkr.ecr.us-east-1.amazonaws.com/carbon-tracker:latest
           env:
             - name: AWS_ACCESS_KEY_ID
-              value: "AKIAT5JGUQP3QBN73SNX"
+              value: ""
             - name: AWS_SECRET_ACCESS_KEY
-              value: "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"
+              value: ""
             - name: AWS_DEFAULT_REGION
               value: "us-east-1"
       restartPolicy: Never
