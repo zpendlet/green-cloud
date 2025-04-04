@@ -1,0 +1,42 @@
+[
+  {
+    "instanceClass": "db.t3.micro",
+    "watts": 7.0
+  },
+  {
+    "instanceClass": "db.t3.small",
+    "watts": 10.0
+  },
+  {
+    "instanceClass": "db.t3.medium",
+    "watts": 15.0
+  },
+  {
+    "instanceClass": "db.t3.large",
+    "watts": 25.0
+  },
+  {
+    "instanceClass": "db.m5.large",
+    "watts": 45.0
+  },
+  {
+    "instanceClass": "db.m5.xlarge",
+    "watts": 90.0
+  },
+  {
+    "instanceClass": "db.m5.2xlarge",
+    "watts": 180.0
+  },
+  {
+    "instanceClass": "db.r5.large",
+    "watts": 55.0
+  },
+  {
+    "instanceClass": "db.r5.xlarge",
+    "watts": 105.0
+  },
+  {
+    "instanceClass": "db.r5.2xlarge",
+    "watts": 210.0
+  }
+]

@@ -1,0 +1,42 @@
+[
+  {
+    "instanceType": "t3.micro",
+    "watts": 6.3
+  },
+  {
+    "instanceType": "t3.medium",
+    "watts": 12.5
+  },
+  {
+    "instanceType": "t2.micro",
+    "watts": 6.1
+  },
+  {
+    "instanceType": "t2.medium",
+    "watts": 12.0
+  },
+  {
+    "instanceType": "m5.large",
+    "watts": 45.0
+  },
+  {
+    "instanceType": "m5.xlarge",
+    "watts": 85.0
+  },
+  {
+    "instanceType": "c5.large",
+    "watts": 50.0
+  },
+  {
+    "instanceType": "c5.xlarge",
+    "watts": 95.0
+  },
+  {
+    "instanceType": "r5.large",
+    "watts": 55.0
+  },
+  {
+    "instanceType": "r5.xlarge",
+    "watts": 105.0
+  }
+]
