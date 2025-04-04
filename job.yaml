@@ -1,0 +1,20 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: carbon-tracker-job
+spec:
+  backoffLimit: 1
+  template:
+    spec:
+      serviceAccountName: carbon-tracker-sa
+      containers:
+        - name: carbon-tracker
+          image: 269053363191.dkr.ecr.us-east-1.amazonaws.com/carbon-tracker:latest
+          env:
+            - name: AWS_ACCESS_KEY_ID
+              value: "AKIAT5JGUQP3QBN73SNX"
+            - name: AWS_SECRET_ACCESS_KEY
+              value: "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"
+            - name: AWS_DEFAULT_REGION
+              value: "us-east-1"
+      restartPolicy: Never
