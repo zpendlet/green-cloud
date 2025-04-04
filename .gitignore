@@ -1,0 +1,42 @@
+# --- Terraform ---
+*.tfstate
+*.tfstate.*
+.terraform/
+crash.log
+*.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+.terraform.lock.hcl
+
+# --- Python ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.env
+.env
+.venv/
+venv/
+*.sqlite3
+*.log
+
+# --- Docker ---
+*.tar
+docker-compose.override.yml
+
+# --- Kubernetes ---
+kubeconfig
+*.yaml.backup
+*.secret.yaml
+
+# --- General ---
+.env.*
+secrets.json
+*.bak
+*.swp
+.DS_Store
+*.idea/
+*.vscode/
+node_modules/
+*.out
